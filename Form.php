@@ -16,7 +16,11 @@
 <body>
     <div class="container">
         <h1>Get Value from Form</h1>
+
         <?php
+        $total = 0;
+        $val1 = 0;
+        $val2 = 0;
         if (isset($_POST['btnAdd'])) {
             $val1 = $_POST['txtVal1'];
             $val2 = $_POST['txtVal2'];
@@ -44,12 +48,12 @@
         <form method="post">
             <div class="mb-3">
                 <label class="form-label">Value 1</label>
-                <input type="number" name="txtVal1" class="form-control">
+                <input type="number" name="txtVal1" class="form-control" value="<?php echo $val1; ?>">
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Value 2</label>
-                <input type="number" name="txtVal2" class="form-control">
+                <input type="number" name="txtVal2" class="form-control" value="<?php echo $val2; ?>">
             </div>
 
             <div class="mb-3">
