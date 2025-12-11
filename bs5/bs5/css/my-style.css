@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
+@font-face {
+    font-family: tacteing;
+    src: url('../fonts/Tacteing.TTF')  format('truetype');
+  }
+*{
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: "Koh Santepheap", Poppins;
+}
+header{
+    background: #005ba1;
+    color: #fff;
+    padding: 20px 0px 0px 0px;
+}
+header h1{
+    font-family: "Moul", serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+header h2{
+    font-family:"Poppins", sans-serif;
+    /* font-weight: 200; */
+    font-size: 27px;
+}
+header h3{
+    font-family:tacteing;
+    /* font-weight: 200; */
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.nav-top{
+    font-family: "Koh Santepheap", serif;
+    background: #005ba1;
+    border-top: 1px solid rgba(255, 255, 255, 0.516);
+}
+.contain{
+    height: 1000px;
+}
+.form-wrapper{
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+}
+.form-search-result{
+    font-family:"Poppins", sans-serif;
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+}
