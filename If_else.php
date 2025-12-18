@@ -14,8 +14,9 @@
     $powerpoint = 30;
     $total = $word + $excel + $powerpoint;
     $average = $total / 3;
-    echo '<h1> Total : ' . $total . '</h1>';
+    '<h1> Totalecho  : ' . $total . '</h1>';
     echo '<h1> Average : ' . $average . '</h1>';
+    echo '<h1> Result : ' . $result . '</h1>';
 
     //If else stement
     if ($average >= 90) echo '<h1> Grand : A</h1>';
@@ -24,6 +25,11 @@
     else if ($average >= 60) echo  '<h1> Grande : E</h1>';
     else echo  '<h1> Grande : F</h1>';
 
+    if ($average >= 50) {
+        echo "<h1>  Pass hz</h1>";
+    } else {
+        echo "<h1>Fail hz</h1>";
+    }
     ?>
 
 </body>
